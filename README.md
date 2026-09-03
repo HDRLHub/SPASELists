@@ -31,7 +31,7 @@ Ionosphere.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/
 Jupiter.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 Magnetosphere.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 Mars.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
-MeasurementType.json | in scope | **none known, work needed**
+MeasurementType.json | in scope | none | work needed
 Mercury.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 MixedQuantity.json | in scope | https://qudt.org/vocab/quantitykind/
 ModelProduct.json | out of scope | N/A | N/A
