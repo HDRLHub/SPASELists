@@ -2,7 +2,7 @@
 Repository containing JSON-LD versions of all enumeration lists in SPASE 2.7.
 
 List Name | Scope | Suggested Replacement
-
+|:--------------|:-----:|:-----------|
 AccessRights.json | Legal and Open Science | https://publications.europa.eu/resource/authority/access-right
 AdiabaticInvariant.json | Science | unknown
 AnnotationType.json | out of scope | N/A
