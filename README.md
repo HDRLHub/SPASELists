@@ -50,14 +50,14 @@ Projection.json | out of scope | N/A | N/A
 Qualifier.json | limited | https://qudt.org/vocab/quantitykind/ | work needed
 Region.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 RenderingAxis.json | out of scope | N/A | N/A
-ResourceType.json | in scope | SPASE 3.0
-Role.json | in scope | [DataCite](https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/contributor/#a-contributortype)
+ResourceType.json | in scope | SPASE 3.0 + [DataCite Types](https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/resourcetype/#a-resourcetypegeneral) | completed
+Role.json | in scope | [DataCite Contributors](https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/contributor/#a-contributortype) | in process
 Saturn.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 SavedQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
 ScaleType.json | out of scope | N/A | N/A
 SourceType.json | out of scope | N/A | N/A
 SpecificModeledRegion.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
-SpectralRange.json | in scope | SPASE 3.0 for numerical, dbpedia.org for names | work needed
+SpectralRange.json | in scope | SPASE 3.0 for numerical, https://dbpedia.org for names | work needed
 Status.json | in scope | DataCite "state" field | straightforward
 Style.json | in scope | [HSSI Data Sources](https://github.com/Heliophysics-Software-Search-Interface/HSSI-vocab/blob/main/jsonld/DataSources.json) | work needed
 Sun.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
