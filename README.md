@@ -1,72 +1,72 @@
 # SPASELists
 Repository containing JSON-LD versions of all enumeration lists in SPASE 2.7.
 
-List Name | Scope | Suggested Replacement
-|:--------------|:-----:|:-----------|
-AccessRights.json | Legal and Open Science | https://publications.europa.eu/resource/authority/access-right
-AdiabaticInvariant.json | Science | unknown
-AnnotationType.json | out of scope | N/A
-ApplicationInterface.json | out of scope | N/A
-AssociationType.json | resource relationship | SPASE 3.0
-Availability.json | out of scope | N/A
-ClassificationMethod.json | out of scope | N/A
-Component.json | limited | SPASE 3.0
-ConfidenceRating.json | out of scope | N/A
-CoordinateRepresentation.json | user assessment | Bob Weigel's work
-CoordinateSystemName.json | user assessment | Bob Weigel's work
-DirectionAngle.json | out of scope | N/A
-DirectionCosine.json | out of scope | N/A
-DisplayType.json | out of scope | N/A
-DocumentType.json | limited | SPASE 3.0
-Earth.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Encoding.json | limited | mime-type.com
-FieldQuantity.json | discovery and connection | none
-Format.json | limited | mime-type.com
-Hardcopy.json | out of scope | N/A
-HashFunction.json | out of scope | N/A
-Heliosphere.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-InstrumentType.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_instruments.ttl
-Integral.json | out of scope | N/A
-Ionosphere.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Jupiter.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Magnetosphere.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Mars.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-MeasurementType.json | discovery and connection | none
-Mercury.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-MixedQuantity.json | discovery and connection | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-ModelProduct.json | out of scope | N/A
-ModelType.json | discovery and connection | https://github.com/Heliophysics-Software-Search-Interface/HSSI-vocab/blob/main/ttl/softwareFunctionality-v0.3.ttl
-ModeledRegion.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-NearSurface.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Neptune.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-ParameterQuantity.json | discovery and connection | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-ParticleQuantity.json | discovery and connection | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-ParticleType.json | discovery and connection | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-PhenomenonType.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_phenomenon.ttl
-ProcessCoeffType.json | discovery and connection | https://qudt.org/vocab/quantitykind/
-ProcessType.json | limited | none
-ProcessingLevel.json | discovery and connection | None
-Projection.json | out of scope | N/A
-Qualifier.json | limited | https://qudt.org/vocab/quantitykind/
-Region.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-RenderingAxis.json | out of scope | N/A
-ResourceType.json | resource relationship | SPASE 3.0
-Role.json | resource relationship | SPASE 3.0
-Saturn.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-SavedQuantity.json | dbpedia.org, https://qudt.org/vocab/quantitykind/
-ScaleType.json | out of scope | N/A
-SourceType.json | out of scope | N/A
-SpecificModeledRegion.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-SpectralRange.json | discovery and connection | SPASE 3.0
-Status.json | user assessment | DataCite "state" field
-Style.json | user assessment | https://github.com/Heliophysics-Software-Search-Interface/HSSI-vocab/blob/main/jsonld/DataSources.json
-Sun.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-SupportQuantity.json | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-Symmetry.json | out of scope | N/A
-Text.json | limited | mime-type.com
-Uranus.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-Venus.json | discovery and connection | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl
-WaveQuantity.json | variable type list needed (e.g., dbpedia.org, https://qudt.org/vocab/quantitykind/)
-WaveType.json | limited | https://qudt.org/vocab/quantitykind/
-Waves.json | out of scope | N/A
-YN.jsonn | out of scope | N/A
+List Name | Scope | Suggested Replacement | Mapping Status
+|:--------------|:-----:|:-----------|:---------------:|
+AccessRights.json | in scope | https://publications.europa.eu/resource/authority/access-right | straightforward
+AdiabaticInvariant.json | out of scope | N/A | N/A
+AnnotationType.json | out of scope | N/A | N/A
+ApplicationInterface.json | out of scope | N/A | N/A
+AssociationType.json | in scope | SPASE 3.0 (prov, DataCite, etc) | completed
+Availability.json | out of scope | N/A | N/A
+ClassificationMethod.json | out of scope | N/A | N/A
+Component.json | limited | SPASE 3.0 | completed
+ConfidenceRating.json | out of scope | N/A | N/A
+CoordinateRepresentation.json | in scope | Bob Weigel's work | work needed
+CoordinateSystemName.json | in scope | Bob Weigel's work | work needed
+DirectionAngle.json | out of scope | N/A | N/A
+DirectionCosine.json | out of scope | N/A | N/A
+DisplayType.json | out of scope | N/A | N/A
+DocumentType.json | limited | SPASE 3.0 (e.g., dcat, schema.org, DataCite) | completed
+Earth.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Encoding.json | limited | mime-type.com | completed
+FieldQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+Format.json | limited | mime-type.com | completed
+Hardcopy.json | out of scope | N/A | N/A
+HashFunction.json | out of scope | N/A | N/A
+Heliosphere.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+InstrumentType.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_instruments.ttl | work needed
+Integral.json | out of scope | N/A | N/A
+Ionosphere.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Jupiter.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Magnetosphere.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Mars.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+MeasurementType.json | in scope | **none known, work needed**
+Mercury.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+MixedQuantity.json | in scope | https://qudt.org/vocab/quantitykind/
+ModelProduct.json | out of scope | N/A | N/A
+ModelType.json | out of scope | N/A | N/A
+ModeledRegion.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+NearSurface.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Neptune.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+ParameterQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+ParticleQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+ParticleType.json | in scope | dbpedia.org | work needed
+PhenomenonType.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_phenomenon.ttl | work needed
+ProcessCoeffType.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+ProcessType.json | out of scope | N/A (shift to free text in keywords)
+ProcessingLevel.json | in scope | None | in development
+Projection.json | out of scope | N/A | N/A
+Qualifier.json | limited | https://qudt.org/vocab/quantitykind/ | work needed
+Region.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+RenderingAxis.json | out of scope | N/A | N/A
+ResourceType.json | in scope | SPASE 3.0
+Role.json | in scope | https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/contributor/#a-contributortype
+Saturn.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+SavedQuantity.json | in scope | dbpedia.org, https://qudt.org/vocab/quantitykind/ | work needed
+ScaleType.json | out of scope | N/A | N/A
+SourceType.json | out of scope | N/A | N/A
+SpecificModeledRegion.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+SpectralRange.json | in scope | SPASE 3.0 for numerical, dbpedia.org for names | work needed
+Status.json | in scope | DataCite "state" field | straightforward
+Style.json | in scope | https://github.com/Heliophysics-Software-Search-Interface/HSSI-vocab/blob/main/jsonld/DataSources.json
+Sun.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+SupportQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+Symmetry.json | out of scope | N/A | N/A
+Text.json | limited | mime-type.com | straightforward
+Uranus.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+Venus.json | in scope | https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl | work needed
+WaveQuantity.json | in scope | https://qudt.org/vocab/quantitykind/ | work needed
+WaveType.json | limited | https://qudt.org/vocab/quantitykind/ | work needed
+Waves.json | out of scope | N/A | N/A
+YN.jsonn | out of scope | N/A | N/A
