@@ -1,5 +1,7 @@
 # SPASELists
-Repository containing JSON-LD versions of all enumeration lists in SPASE 2.7.
+Repository containing JSON-LD versions of all enumeration lists in SPASE 2.7. The table below shows the complete list of enumerated lists in SPASE 2.7, whether it is relevant to SPASE 3.0 (second column), its suggested replacement, and the mapping status. If no ongoing or expected relevant work is known where a need exists, "unknown" is used in the third column.
+Some external lists not included below that could be useful:
+- https://scientificvariablesontology.org/
 
 List Name | Scope | Suggested Replacement | Mapping Status
 |:--------------|:-----:|:-----------|:---------------:|
