@@ -25,7 +25,7 @@ Format.json | limited | https://mime-type.com | completed
 Hardcopy.json | out of scope | N/A | N/A
 HashFunction.json | out of scope | N/A | N/A
 Heliosphere.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
-InstrumentType.json | in scope | [Instrument List](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_instruments.ttl) | work needed
+InstrumentType.json | in scope | unknown | work needed
 Integral.json | out of scope | N/A | N/A
 Ionosphere.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
 Jupiter.json | in scope | [Regions Ontology](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region.ttl) | work needed
